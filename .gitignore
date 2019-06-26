@@ -1,0 +1,17 @@
+# DB
+mysql.cnf
+
+# virtual environment
+venv/
+
+# __pycache__
+django_tutorial/__pycache__/
+polls/__pycache__/
+
+# migrations (No neet to share because of personal results)
+polls/migrations/*
+!polls/migrations/__init__.py
+
+
+# etc
+.idea/
